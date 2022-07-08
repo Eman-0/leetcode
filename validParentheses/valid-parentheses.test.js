@@ -1,5 +1,5 @@
 
-const isValid = require ('./validParentheses');
+const isValid = require ('./valid-parentheses');
 
 test('"()" returns true', () => {
     expect(isValid("()")).toBe(true);
