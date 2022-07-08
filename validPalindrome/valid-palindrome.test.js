@@ -1,7 +1,7 @@
 const isPalindrome = require('./valid-palindrome');
 
-test('race car', () => {
-    expect(isPalindrome('race car')).toBe(true);
+test('A man, a plan, a canal: Panama', () => {
+    expect(isPalindrome('A man, a plan, a canal: Panama')).toBe(true);
 })
 
 test('hello moto', () => {
@@ -11,5 +11,7 @@ test('hello moto', () => {
 test('ra#%^ce! c@@@$a*()r', () => {
     expect(isPalindrome('ra#%^ce! c@@@$a*()r')).toBe(true);
 })
+
+
 
 
