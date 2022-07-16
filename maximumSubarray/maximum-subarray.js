@@ -3,7 +3,7 @@ var maxSubArray = function (nums) {
 
     let maxSum = -Infinity;
 
-    const largestSum = nums.reduce((currSum, currValue) => {
+    nums.reduce((currSum, currValue) => {
         currSum = Math.max(currValue, currSum + currValue);
    
         maxSum = Math.max(currSum, maxSum);
